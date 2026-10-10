@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-09T23:11:35.596936-06:00 by Eclipse SUMO netedit 1.27.1
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="J10" type="static" programID="0" offset="0">
+        <phase duration="30" state="GGrrGGrr"/>
+        <phase duration="3.50"  state="yyrryyrr"/>
+        <phase duration="2"  state="rrrrrrrr"/>
+        <phase duration="30" state="rrGGrrGG"/>
+        <phase duration="3.50"  state="rryyrryy"/>
+        <phase duration="2"  state="rrrrrrrr"/>
+    </tlLogic>
+</additional>
