@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-13T09:59:26.553868-06:00 by Eclipse SUMO netedit 1.27.1
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\sumoTest2.sumocfg"/>
+        <route-files value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\sumoTest1.rou.xml"/>
+        <sumo-net-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\test1.net.xml"/>
+    </input>
+
+    <output>
+        <tls-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\trafficLights.tll.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</neteditConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="J10" type="static" programID="0" offset="0">
+        <phase duration="28" state="GGrrGGrr"/>
+        <phase duration="3"  state="yyrryyrr"/>
+        <phase duration="2"  state="rrrrrrrr"/>
+        <phase duration="28" state="rrGGrrGG"/>
+        <phase duration="3"  state="rryyrryy"/>
+        <phase duration="2"  state="rrrrrrrr"/>
+    </tlLogic>
+</additional>

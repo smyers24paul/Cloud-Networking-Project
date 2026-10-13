@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-10-12T21:55:53.501870-06:00 by Eclipse SUMO netedit 1.27.1
+<!-- generated on 2026-10-13T10:06:55.266495-06:00 by Eclipse SUMO netedit 1.27.1
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\sumoTest1.sumocfg"/>
+        <sumocfg-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\sumoTest2.sumocfg"/>
+        <route-files value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\sumoTest1.rou.xml"/>
         <sumo-net-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\test1.net.xml"/>
     </input>
 
     <output>
+        <tls-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\trafficLights.tll.xml"/>
         <output-file value="C:\Users\sebi0\OneDrive\Desktop\Cloud Net Tech Stuff\test1.net.xml"/>
     </output>
 
@@ -160,10 +162,10 @@
     </edge>
 
     <tlLogic id="J10" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGrrGGrr"/>
+        <phase duration="28" state="GGrrGGrr"/>
         <phase duration="3"  state="yyrryyrr"/>
         <phase duration="2"  state="rrrrrrrr"/>
-        <phase duration="42" state="rrGGrrGG"/>
+        <phase duration="28" state="rrGGrrGG"/>
         <phase duration="3"  state="rryyrryy"/>
         <phase duration="2"  state="rrrrrrrr"/>
     </tlLogic>
@@ -176,10 +178,13 @@
         <phase duration="2"  state="rrrrrrrr"/>
     </tlLogic>
     <tlLogic id="J13" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGgrrGGG"/>
-        <phase duration="3"  state="yyyrrGyy"/>
-        <phase duration="42" state="rrrGGGrr"/>
+        <phase duration="15" state="GGGGrGrr"/>
+        <phase duration="15" state="GGggrGGG"/>
+        <phase duration="3.50"  state="yyygrGyy"/>
+        <phase duration="3"  state="rrrgrGrr"/>
+        <phase duration="20" state="rrrGGGrr"/>
         <phase duration="3"  state="rrryyGrr"/>
+        <phase duration="3"  state="rrrrrGrr"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="0.00" y="-200.00" incLanes="RDE1_0 RDE1_1" intLanes="" shape="0.00,-200.00 0.00,-206.40 -0.00,-193.60"/>
