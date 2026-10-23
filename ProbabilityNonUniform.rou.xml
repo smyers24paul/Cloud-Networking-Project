@@ -5,14 +5,14 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" begin="0.00" end="100.00" probability="0.10000000000000000555" color="205,192,176" from="Lane1" to="Lane2"/>
-    <flow id="f_1" begin="0.00" end="100.00" probability="0.2999999999999999889" color="205,192,176" from="Lane1" to="RUE1"/>
-    <flow id="f_11" begin="0.00" end="100.00" probability="0.55000000000000004441" color="128,128,0" from="LDE1" to="LDE2"/>
-    <flow id="f_13" begin="0.00" end="100.00" probability="0.55000000000000004441" color="222,184,135" from="RDE2" to="RDE1"/>
-    <flow id="f_2" begin="0.00" end="100.00" probability="0.2999999999999999889" color="102,205,170" from="Lane4" to="Lane3"/>
-    <flow id="f_3" begin="0.00" end="100.00" probability="0.2000000000000000111" color="102,205,170" from="Lane4" to="RUE1"/>
-    <flow id="f_4" begin="0.00" end="100.00" probability="0.2000000000000000111" from="LD1" to="RD1"/>
-    <flow id="f_6" begin="0.00" end="100.00" probability="0.2000000000000000111" color="red" from="RU1" to="LU1"/>
-    <flow id="f_8" begin="0.00" end="100.00" probability="0.14999999999999999445" color="blue" from="LUE1" to="Lane3"/>
-    <flow id="f_9" begin="0.00" end="100.00" probability="0.14999999999999999445" color="blue" from="LUE1" to="Lane2" via="DR2 UR2"/>
+    <flow id="f_0" begin="0.00" end="100.00" probability="0.10000000000000000555" color="205,192,176" from="EntryLeft1" to="ExitRight1"/>
+    <flow id="f_1" begin="0.00" end="100.00" probability="0.2999999999999999889" color="EntryLeft1" to="ExitCentral1"/>
+    <flow id="f_11" begin="0.00" end="100.00" probability="0.55000000000000004441" color="128,128,0" from="EntryLeft3" to="ExitRight3"/>
+    <flow id="f_13" begin="0.00" end="100.00" probability="0.55000000000000004441" color="222,184,135" from="EntryRight3" to="ExitLeft3"/>
+    <flow id="f_2" begin="0.00" end="100.00" probability="0.2999999999999999889" color="102,205,170" from="EntryRight1" to="ExitLeft1"/>
+    <flow id="f_3" begin="0.00" end="100.00" probability="0.2000000000000000111" color="102,205,170" from="EntryRight1" to="ExitCentral1"/>
+    <flow id="f_4" begin="0.00" end="100.00" probability="0.2000000000000000111" from="EntryLeft2" to="ExitRight2"/>
+    <flow id="f_6" begin="0.00" end="100.00" probability="0.2000000000000000111" color="red" from="EntryRight2" to="ExitLeft2"/>
+    <flow id="f_8" begin="0.00" end="100.00" probability="0.14999999999999999445" color="blue" from="EntryCentral1" to="ExitLeft1"/>
+    <flow id="f_9" begin="0.00" end="100.00" probability="0.14999999999999999445" color="blue" from="EntryCentral1" to="ExitRight1"/>
 </routes>
