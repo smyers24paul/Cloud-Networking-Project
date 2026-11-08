@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="test1_fixed.net.xml"/>
+        <route-files value="ProbabilityLight.rou.xml"/>
+        <additional-files value="sumoTest2.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="trips_fixed_s1.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+</configuration>

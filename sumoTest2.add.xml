@@ -5,26 +5,26 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- Detectors -->
-    <inductionLoop id="J12_E_1" lane="RDE2_1" pos="163.90" period="300.00" file="J12_E_1.xml"/>
-    <inductionLoop id="J12_E_2" lane="RDE2_0" pos="164.34" period="300.00" file="J12_E_2.xml"/>
-    <inductionLoop id="J12_N_1" lane="RUE2_0" pos="132.34" period="300.00" file="J12_N_1.xml"/>
-    <inductionLoop id="J12_N_2" lane="RUE2_1" pos="132.53" period="300.00" file="J12_N_2.xml"/>
-    <inductionLoop id="J12_S_1" lane="LUE1_1" pos="168.95" period="300.00" file="J12_S_1.xml"/>
-    <inductionLoop id="J12_S_2" lane="LUE1_0" pos="168.95" period="300.00" file="J12_S_2.xml"/>
-    <inductionLoop id="J12_W_1" lane="LDE1_0" pos="162.92" period="300.00" file="J12_W_1.xml"/>
-    <inductionLoop id="J12_W_2" lane="LDE1_1" pos="163.15" period="300.00" file="J12_W_2.xml"/>
-    <inductionLoop id="j10_E_1" lane="RU1_1" pos="129.63" period="300.00" file="j10_E_1.xml"/>
-    <inductionLoop id="j10_E_2" lane="RU1_0" pos="129.53" period="300.00" file="j10_E_2.xml"/>
-    <inductionLoop id="j10_N_1" lane="UL2_0" pos="132.31" period="300.00" file="j10_N_1.xml"/>
-    <inductionLoop id="j10_N_2" lane="UL2_1" pos="132.31" period="300.00" file="j10_N_2.xml"/>
-    <inductionLoop id="j10_S_1" lane="DR2_0" pos="126.63" period="300.00" file="j10_S_1.xml"/>
-    <inductionLoop id="j10_S_2" lane="DR2_1" pos="126.74" period="300.00" file="j10_S_2.xml"/>
-    <inductionLoop id="j10_W_1" lane="LD1_1" pos="129.22" period="300.00" file="j10_W_1.xml"/>
-    <inductionLoop id="j10_W_2" lane="LD1_0" pos="129.02" period="300.00" file="j10_W_2.xml"/>
-    <inductionLoop id="j13_E_1" lane="Lane4_1" pos="169.53" period="300.00" file="j13_E_1.xml"/>
-    <inductionLoop id="j13_E_2" lane="Lane4_0" pos="169.46" period="300.00" file="j13_E_2.xml"/>
-    <inductionLoop id="j13_S_1" lane="UR2_1" pos="127.32" period="300.00" file="j13_S_1.xml"/>
-    <inductionLoop id="j13_S_2" lane="UR2_0" pos="127.32" period="300.00" file="j13_S_2.xml"/>
-    <inductionLoop id="j13_W_1" lane="Lane1_1" pos="169.27" period="300.00" file="j13_W_1.xml"/>
-    <inductionLoop id="j13_W_2" lane="Lane1_0" pos="169.20" period="300.00" file="j13_W_2.xml"/>
+    <inductionLoop id="J12_E_1" lane="RDE2_1" pos="163.90" period="30.00" file="J12_E_1.xml"/>
+    <inductionLoop id="J12_E_2" lane="RDE2_0" pos="164.34" period="30.00" file="J12_E_2.xml"/>
+    <inductionLoop id="J12_N_1" lane="RUE2_0" pos="132.34" period="30.00" file="J12_N_1.xml"/>
+    <inductionLoop id="J12_N_2" lane="RUE2_1" pos="132.53" period="30.00" file="J12_N_2.xml"/>
+    <inductionLoop id="J12_S_1" lane="LUE1_1" pos="168.95" period="30.00" file="J12_S_1.xml"/>
+    <inductionLoop id="J12_S_2" lane="LUE1_0" pos="168.95" period="30.00" file="J12_S_2.xml"/>
+    <inductionLoop id="J12_W_1" lane="LDE1_0" pos="162.92" period="30.00" file="J12_W_1.xml"/>
+    <inductionLoop id="J12_W_2" lane="LDE1_1" pos="163.15" period="30.00" file="J12_W_2.xml"/>
+    <inductionLoop id="j10_E_1" lane="RU1_1" pos="129.63" period="30.00" file="j10_E_1.xml"/>
+    <inductionLoop id="j10_E_2" lane="RU1_0" pos="129.53" period="30.00" file="j10_E_2.xml"/>
+    <inductionLoop id="j10_N_1" lane="UL2_0" pos="132.31" period="30.00" file="j10_N_1.xml"/>
+    <inductionLoop id="j10_N_2" lane="UL2_1" pos="132.31" period="30.00" file="j10_N_2.xml"/>
+    <inductionLoop id="j10_S_1" lane="DR2_0" pos="126.63" period="30.00" file="j10_S_1.xml"/>
+    <inductionLoop id="j10_S_2" lane="DR2_1" pos="126.74" period="30.00" file="j10_S_2.xml"/>
+    <inductionLoop id="j10_W_1" lane="LD1_1" pos="129.22" period="30.00" file="j10_W_1.xml"/>
+    <inductionLoop id="j10_W_2" lane="LD1_0" pos="129.02" period="30.00" file="j10_W_2.xml"/>
+    <inductionLoop id="j13_E_1" lane="Lane4_1" pos="150.00" period="30.00" file="j13_E_1.xml"/>
+    <inductionLoop id="j13_E_2" lane="Lane4_0" pos="150.00" period="30.00" file="j13_E_2.xml"/>
+    <inductionLoop id="j13_S_1" lane="UR2_1" pos="127.32" period="30.00" file="j13_S_1.xml"/>
+    <inductionLoop id="j13_S_2" lane="UR2_0" pos="127.32" period="30.00" file="j13_S_2.xml"/>
+    <inductionLoop id="j13_W_1" lane="Lane1_1" pos="150.00" period="30.00" file="j13_W_1.xml"/>
+    <inductionLoop id="j13_W_2" lane="Lane1_0" pos="150.00" period="30.00" file="j13_W_2.xml"/>
 </additional>
